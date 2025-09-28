@@ -3,7 +3,7 @@ import os
 import django
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE",
-                      "your_project_name.settings")  # اسم پروژه‌ات رو بزار
+                      "core.settings")
 django.setup()
 
 
