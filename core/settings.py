@@ -144,3 +144,13 @@ CSRF_TRUSTED_ORIGINS = [
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://auto-journal-backend.onrender.com",
+]
+
+
+CORS_ALLOWED_ORIGINS = [
+    "https://auto-journal-backend.onrender.com",
+    "https://your-frontend-domain.com",  
+]
