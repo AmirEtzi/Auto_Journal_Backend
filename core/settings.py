@@ -14,7 +14,6 @@ DEBUG = True
 ALLOWED_HOSTS = ["*"]
 
 
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -58,7 +57,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'core.wsgi.application'
-
 
 
 DATABASES = {
@@ -145,5 +143,5 @@ CSRF_TRUSTED_ORIGINS = [
 
 CORS_ALLOWED_ORIGINS = [
     "https://auto-journal-backend.onrender.com",
-    "https://your-frontend-domain.com",  
+    "https://auto-journal-frontend.vercel.app",
 ]
